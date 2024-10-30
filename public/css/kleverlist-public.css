@@ -1,0 +1,6 @@
+.woocommerce-page label.woocommerce-form__label-for-checkbox input[type=checkbox] {
+    display: inline-block !important;
+}
+.kleverlist-privacy-checkbox span.optional{
+    display: none !important;
+}

@@ -1,0 +1,392 @@
+.kleverlist-mapping-owntags tr td.kleverlist-mapping-input-td {
+    width: 40%;
+    border: none !important;
+}
+
+.kleverlist-mapping-owntags tr td .kleverlist-container input#kleverlist_mailchimp_tags {
+    width: 100%;
+}
+
+.kleverlist-mapping-owntags tr td .kleverlist-container .kleverlist-button-tag {
+    margin-top: 8px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kleverlist-mapping-owntags tr td .kleverlist-container .kleverlist-button-tag button.kleverlist-mapping-btn {
+  background: #2271b1;
+    border-color: #2271b1;
+    box-shadow: none;
+    color: #fff;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+.kleverlist-mapping-owntags tr td .kleverlist-container .kleverlist-button-tag button.kleverlist-mapping-btn:hover{
+    background: #135e96;
+    border-color: #135e96;
+}
+
+.kleverlist-mapping-owntags tr td .kleverlist-container label {
+    font-size: 13px;
+    color: black;
+    font-family: inherit;
+    padding-bottom: 5px;
+    display: block;
+}
+
+table.kleverlist-table-mapping-datatable {
+    table-layout: fixed;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+
+td.kleverlist-data-mapping-td {
+    padding: 0;
+    vertical-align: middle;
+}
+tr.kleverlist-data-mapping-tr th {
+    padding: 0;
+}
+
+tr.kleverlist-data-mapping-tr th a {
+    display: flex;
+    overflow: hidden;
+    padding: 8px;
+}
+
+td.kleverlist-data-mapping-td {
+    width: 0.2em !important;
+    border-bottom: 1px solid #c3c4c7;
+}
+td.kleverlist-data-mapping-td input[type="checkbox"] {
+    padding: 0 !important;
+    margin: auto !important;
+    
+}
+
+.kleverlist-mapping-owntags tr td .kleverlist-container a {
+    text-decoration: none;
+    padding-left: 4px;
+}
+
+.kleverlist-mapping-owntags tr td.kleverlist-mapping-data-td,.kleverlist-mapping-owntags tr th.kleverlist-mapping-data-th,td.kleverlist-mapping-data-tbody-td{
+    border-bottom: 1px solid #c3c4c7;
+}
+tr.kleverlist-data-mapping-body-page td {
+    padding: 8px 10px;
+    font-size: 13px;
+}
+
+tr.kleverlist-data-mapping-body-page {
+    background: #f6f7f7;
+}
+tfoot.kleverlist-data-mapping-tfoot tr.kleverlist-data-mapping-tr td,tfoot.kleverlist-data-mapping-tfoot tr.kleverlist-data-mapping-tr th {
+     border-top: 1px solid #c3c4c7;
+     border-bottom:0 !important;
+}
+
+td.kleverlist-data-mapping-td {
+    line-height: 0.5;
+}
+.kleverlist-mapping-owntags td {
+    padding-left: 15px !important;
+}
+td.kleverlist-mapping-input-td.kleverlist-mapping-data-td {
+    vertical-align: top;
+}
+
+td.kleverlist-mapping-input-td.kleverlist-mapping-data-td {
+    padding-left: 0 !important;
+}
+.kleverlist-data-mapping-right-td{padding-right:0 !important }
+tbody.kleverlist-data-mapping-tbody tr.kleverlist-data-mapping-body-page:last-child td {
+    border: 0;
+}
+
+tr.kleverlist-data-mapping-body-page td.kleverlist-data-mapping-td.kleverlist-mapping-data-td {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+td.kleverlist-mapping-data-tbody-td {
+    padding-left: 4px !important;
+}
+
+td.kleverlist-mapping-data-tbody-td span {
+    font-size: 14px;
+    color: #50575e;
+    font-family: inherit;
+}
+.kleverlist-mailchimp-tag-response.success,
+.kleverlist-mailchimp-delete-tag-response.success{
+    color: green;
+}
+.kleverlist-mailchimp-tag-response.error,
+.kleverlist-mailchimp-delete-tag-response.error{
+    color: red;
+}
+#tag_loader,#delete_tag_loader {
+    position: unset;
+    width: 25px;
+    height: 25px;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    border-top-color: #333;
+    border-radius: 50%;
+    animation: spin 1s ease-in-out infinite;
+}
+/*.kleverlist-button-tag{
+    position: absolute;
+}*/
+.kleverlist-loader-outer-div.mailchimp-tag-loader{
+    position: unset;
+     height: auto;
+    margin-left: 20px;
+}
+button#kleverlist_delete_mailchimp_tags[disabled] {
+  /* Add your disabled styles here */
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+p.kleverlist-mailchimp-tag-response {
+    margin: 0 !important;
+}
+
+p.kleverlist-mailchimp-tag-response,
+p.kleverlist-mailchimp-delete-tag-response {
+    display: block;
+    width: 100%;
+}
+
+td.kleverlist-data-mapping-td.kleverlist-mapping-data-td:before,td.kleverlist-data-mapping-td.kleverlist-mapping-data-td:after {
+    left: 39px;
+}
+
+div#kleverlist_taglist_filter input {
+    height: 35px;
+    margin-bottom: 0.15em;
+}
+
+tr.kleverlist-data-mapping-tr th.kleverlist-mapping-data-th span.sorting-indicator {
+    display: inline;
+}
+
+/*WC Product Details Pro Featured CSS Start*/
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan .wc-pro-featured-icon,
+.kleverlist-wc-products-pro-featured.kleverlist-free-plan .wc-pro-featured-icon, {
+    position: absolute;
+    top: -3px;
+    left: 210px;
+    display: none;
+}
+
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan .wc-pro-featured-icon img, 
+.kleverlist-wc-products-pro-featured.kleverlist-free-plan .wc-pro-featured-icon img {
+    width: 40px;
+}
+
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan,
+.kleverlist-wc-products-pro-featured.kleverlist-free-plan{
+    position: relative;
+    background: #e7e7e7 !important;
+    cursor: pointer;
+    opacity: 0.5;
+    display: flex;
+}
+
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan .wc-pro-featured-icon,
+.kleverlist-wc-products-pro-featured.kleverlist-free-plan .wc-pro-featured-icon{
+    display: block;
+}
+
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan input, 
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan label,
+.kleverlist-wc-products-pro-featured.kleverlist-free-plan input, 
+.kleverlist-wc-products-pro-featured.kleverlist-free-plan label{
+    pointer-events: none;
+}
+
+.kleverlist-wc-products-pro-featured.kleverlist-free-plan{
+    height: 34px;
+}
+.kleverlist-wc-products-pro-featured p {
+    margin-top:0 !important;
+}
+
+.ui-widget-content li.ui-menu-item {
+    padding: 7px 9px !important;
+}
+
+.ui-widget-content li.ui-menu-item .ui-menu-item-wrapper {
+    font-size: 14px;
+    text-transform: capitalize;
+    border:0;
+}
+
+.ui-widget-content li.ui-menu-item:hover {
+background:#2271b1;  
+padding: 7px 9px !important;  
+}
+
+.ui-widget-content li.ui-menu-item:hover .ui-menu-item-wrapper{
+    background:#2271b1;COLOR:WHITE;border:0;
+    font-family:inherit;
+    padding: 1px 2px;
+    font-weight: 500;
+}
+
+div#order_processing_product_tag_list_tags_container span.selected-tag,
+div#order_completed_product_tag_list_tags_container span.selected-tag {
+    padding: 4px 8px;
+    font-size: 13px;
+    font-family: inherit;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 1px solid #e4e4e4;
+    background-color: #e4e4e4;
+    border-radius: 8px;
+    margin-right: 4px;
+    display: inline-block;
+    margin-bottom: 0.4em;
+}
+
+div#order_processing_product_tag_list_tags_container span.selected-tag span.tag-close-icon, 
+div#order_completed_product_tag_list_tags_container span.selected-tag span.tag-close-icon 
+{
+    font-size: 10px;
+    padding-left: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+div#order_processing_product_tag_list_tags_container,
+div#order_completed_product_tag_list_tags_container {
+    padding-left: 162px;
+    margin-top: 18px;
+    display: block;
+}
+
+/* Custom CSS for Autocomplete Menu */
+.ui-autocomplete {
+    max-height: 200px; /* Set the maximum height of the menu */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden;
+}
+
+/* Optional: Customize other styles for the menu items */
+.ui-autocomplete .ui-menu-item {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.form-field.order_processing_product_tag_list_field.tag-autocomplete.kleverlist-free-plan,
+.form-field.order_completed_product_tag_list_field.tag-autocomplete.kleverlist-free-plan {
+    background: #e7e7e7 !important;
+    position: relative;
+}
+
+.form-field.order_processing_product_tag_list_field.tag-autocomplete.kleverlist-free-plan input#order_processing_product_tag_list
+.form-field.order_completed_product_tag_list_field.tag-autocomplete.kleverlist-free-plan input#order_completed_product_tag_list, {
+    opacity: 0.5 !important;
+    pointer-events: none !important;
+}
+
+p.tag-autocomplete.kleverlist-free-plan label {
+    line-height: 30px;
+}
+
+p.tag-autocomplete.kleverlist-free-plan {
+    opacity: 0.5;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    display: block;
+}
+
+.kleverlist-wc-products-pro-featured.kleverlist-pro-featured-addtagto_product-order-processing,
+.kleverlist-wc-products-pro-featured.kleverlist-pro-featured-addtagto_product-order-completed
+ {
+    position: relative;
+    width: 100%;
+}
+
+.kleverlist-wc-products-pro-featured.kleverlist-pro-featured-addtagto_product-order-processing .wc-pro-featured-icon,
+.kleverlist-wc-products-pro-featured.kleverlist-pro-featured-addtagto_product-order-completed .wc-pro-featured-icon {
+    width: 40px;
+    position: absolute;
+    bottom: -4px;
+    left: 215px;
+}
+
+.kleverlist-wc-products-pro-featured.kleverlist-pro-featured-addtagto_product-order-processing .wc-pro-featured-icon img,
+.kleverlist-wc-products-pro-featured.kleverlist-pro-featured-addtagto_product-order-completed .wc-pro-featured-icon img {
+    width: 100%;
+}
+
+p.form-field.order_processing_product_tag_list_field.tag-autocomplete.kleverlist-free-plan input,
+p.form-field.order_completed_product_tag_list_field.tag-autocomplete.kleverlist-free-plan input
+{
+    opacity: 0.4;
+}
+
+p.form-field.order_completed_product_tag_list_field.tag-autocomplete.kleverlist-free-plan {
+    margin-bottom: 10em;
+}
+.kleverlist-wc-products-pro-featured.kleverlist-pro-featured-addtagto_product-order-completed {
+    margin-bottom: 4em;
+}
+
+.kleverlist-mapping-owntags.kleverlist-free-plan .kleverlist-container {
+    pointer-events: none;
+}
+
+input#kleverlist_mailchimp_tag_settings_save,
+input#kleverlist_sendy_tag_settings_save,
+input#kleverlist_aweber_tag_settings_save,
+input#kleverlist_aweber_global_settings,
+input#kleverlist_global_mailchimp_button {
+    min-width: 170px;
+    height: 44px;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 600;
+    background: #FF7A3D;
+}
+input#kleverlist_mailchimp_tag_settings_save:hover, 
+input#kleverlist_aweber_global_settings:hover, 
+input#kleverlist_sendy_tag_settings_save:hover, 
+input#kleverlist_aweber_tag_settings_save:hover,
+input#kleverlist_global_mailchimp_button:hover {
+    background: #FF5100;
+}
+
+.kleverlist-mailchimp-global-audience-input input,
+.kleverlist-aweber-global-audience-input input {
+    padding: 8px 18px;
+    min-width: 220px;
+    margin-left: 10px;
+    font-family: inherit;
+    outline: 0;
+    border-radius: 6px;
+    font-weight: 600;
+    border: 1px solid;    
+}
+
+li.kleverlist-menu-item-hidden{
+    display: none !important;
+}

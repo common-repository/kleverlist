@@ -1,0 +1,195 @@
+/*Premium notice popup*/
+.kleverlist-premium-popup-wrapper .kleverlist-premium-popup-inner-wrapper {
+    position: fixed;
+    width: 600px;
+    height: 440px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.kleverlist-premium-popup-wrapper .kleverlist-premium-popup-image-popup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0 0em;
+}
+
+.kleverlist-premium-popup-wrapper .kleverlist-premium-popup-image-popup img {
+    width: 100px;
+}
+
+.kleverlist-premium-popup-content {
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.kleverlist-premium-popup-content h2 {
+    font-size: 2.0em !important;
+    font-family: 'Roboto' !important;
+    font-weight: 600 !important;
+}
+
+.kleverlist-premium-popup-content p {
+    font-size: 17px;
+    padding:0 20px;
+}
+
+.kleverlist-premium-popup-content p a {
+    color: red;
+    text-transform: capitalize;
+}
+
+.overlay-kleverlist {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.kleverlist-premium-btn {
+    text-align: right;
+    margin-top: 2.5em;
+    width: 90%;
+}
+
+.kleverlist-premium-btn a {
+    background: #fc8f0f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    outline: none;
+}
+#kleverlist-notice-popup{
+    display: none;
+}
+/*Premium notice popup*/
+
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan .wc-pro-featured-icon,
+.kleverlist-pro-featured-unsubscribe-order-processing.kleverlist-free-plan .wc-pro-featured-icon, {
+    position: absolute;
+    top: -3px;
+    left: 210px;
+    display: none;
+}
+
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan .wc-pro-featured-icon img, 
+.kleverlist-pro-featured-unsubscribe-order-processing.kleverlist-free-plan .wc-pro-featured-icon img {
+    width: 40px;
+}
+
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan,
+.kleverlist-pro-featured-unsubscribe-order-processing.kleverlist-free-plan{
+    position: relative;
+    background: #e7e7e7 !important;
+    cursor: pointer;
+    opacity: 0.5;
+    display: flex;
+}
+
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan .wc-pro-featured-icon,
+.kleverlist-pro-featured-unsubscribe-order-processing.kleverlist-free-plan .wc-pro-featured-icon{
+    display: block;
+}
+
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan input, 
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan label,
+.kleverlist-pro-featured-unsubscribe-order-processing.kleverlist-free-plan input, 
+.kleverlist-pro-featured-unsubscribe-order-processing.kleverlist-free-plan label{
+    pointer-events: none;
+}
+
+
+h2.kleverlist_wc_tab_title {
+    font-size: 15px !important; 
+    margin: 15px 0 0 0 !important;
+    line-height: 1.4 !important;
+    font-weight: 600 !important;    
+}
+
+p.form-field.order_processing_unsubscribe_product_field.kleverlist_unsubscribe_product,p.form-field.unsubscribe_product_field.kleverlist_unsubscribe_product {
+    margin-top: 0px;
+    padding-right: 10px !important;
+}
+.kleverlist-pro-featured-unsubscribe-order-processing.kleverlist-free-plan{
+    height: 34px;
+}
+.wc-pro-featured-icon{
+    position: relative;
+    top: -3px;
+}
+.kleverlist-pro-featured-unsubscribe.kleverlist-free-plan{
+    height: 34px;
+    margin-bottom: 10em;
+}
+.kleverlist-bulk-list-product-filters{
+    clear: both;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+.kleverlist-bulk-list-product-filters label{
+    vertical-align: middle;
+}
+.kleverlist-bulk-list-product-filters .kleverlist-bulk-list-checkbox{
+    height: 16px !important;
+    position: relative;
+    top: 3px;
+}
+.kleverlist-bulk-list-product-filters .kleverlist-bulk-list-radio{
+    height: 16px !important;
+    position: relative;
+    top: 3px;
+}
+
+.kleverlist-option-bulk-log-section{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.kleverlist-option-bulk-log-section img{
+    width: 100%;
+}
+
+.kleverlist-bulk-list-product-filters select#kleverlist_sendy_bulk_list_dropdown {
+    margin-right: 10px;
+}
+.kleverlist-sendy-bulk-response{
+    width: 50%;
+}
+
+.kleverlist-sendy-bulk-lists-input,
+.kleverlist-mailchimp-bulk-lists-input, .kleverlist-aweber-bulk-lists-input {
+    display: flex;
+}
+
+.kleverlist-sendy-bulk-list-radio-selection,
+.kleverlist-mailchimp-bulk-list-radio-selection {
+    margin-left: 25px;
+    padding: 5px 0 0 0; 
+}
+
+.kleverlist-sendy-bulk-list-checkbox-selection,
+.kleverlist-mailchimp-bulk-list-checkbox-selection , .kleverlist-aweber-bulk-list-checkbox-selection {
+    margin-left: 10px;
+    padding: 5px 0px 0 0;
+}
+
+input.button.kleverlist-sendy-bulk-list-apply {
+    margin-left: 10px;
+}

@@ -1,0 +1,1510 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.settings-input-section input {
+    min-width: 250px;
+}
+
+tr.settings-input-section td {
+    width: 33%;
+}
+
+.kleverlist-response,
+.kleverlist-response-brands,
+.kleverlist-response-mailchimp-audience,
+.kleverlist-gloabal-response,
+.kleverlist-response-aweber-list {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.kleverlist-response.error,
+.kleverlist-gloabal-response.error,
+.kleverlist-response-aweber-list.error {
+    color: red;
+}
+
+.kleverlist-response.success,
+.kleverlist-gloabal-response.success,
+.kleverlist-response-mailchimp-audience.success,
+.kleverlist-response-aweber-list.success {
+    color: green;
+}
+p.kleverlist-response-mailchimp-audience.klever-list-data-generate-text,
+p.kleverlist-response-aweber-list.kleverlist-data-generate-text{
+    padding-bottom: 11px;
+    text-align: center;
+}
+
+.kleverlist-response-brands.error,
+.kleverlist-migration-response.error,
+.kleverlist-response-mailchimp-audience.error {
+    color: red;
+}
+
+.kleverlist-response-brands.success,
+.kleverlist-migration-response.success {
+    color: green;
+}
+
+span.labelauty-checked-image {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+
+input.kleverlist-checkbox {
+    visibility: hidden;
+}
+
+.kleverlist-mapping-section {
+    display: flex;
+    width: 100%;
+}
+
+.kleverlist-mapping-left {
+    width: 50%;
+    float: left;
+}
+
+.kleverlist-mapping-right {
+    width: 50%;
+    float: left;
+}
+
+.kleverlist-setting-page .kleverlist-postbox {
+    padding: 15px 69px 16px 13px;
+    margin: 10px 0 10px 0;
+    width: 92%;
+}
+
+.active_sendy_checkbox input[type=checkbox]:checked~.sendy_product_list_field {
+    display: block !important;
+}
+
+input#kleverlist_remove_settings {
+    background: red;
+    color: white;
+    border-color: red;
+}
+
+form#kleverlist_sendy_settings tr:first-child th {
+    min-width: 272px;
+}
+
+form#kleverlist_sendy_settings table tbody.settings-input-section.sendy-integration-inputs label,
+form#kleverlist_mailchimp_settings table tbody.settings-input-section.mailchimp-integration-inputs label,
+form#kleverlist_aweber_settings table tbody.settings-input-section.aweber-integration-inputs label {
+    font-family: inherit;
+    font-weight: 700;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+
+form#kleverlist_sendy_settings table tbody.settings-input-section.sendy-integration-inputs input,
+form#kleverlist_mailchimp_settings table tbody.settings-input-section.mailchimp-integration-inputs input,
+form#kleverlist_aweber_settings table tbody.settings-input-section.aweber-integration-inputs input {
+    padding: 7px 18px;
+    border-color: white;
+    border-radius: 6px;
+    outline: none;
+}
+
+form#kleverlist_sendy_settings table tbody.settings-input-section.sendy-integration-inputs p.submit input#submit,
+form#kleverlist_mailchimp_settings table tbody.settings-input-section.mailchimp-integration-inputs p.submit input#submit,
+form#kleverlist_aweber_settings table tbody.settings-input-section.aweber-integration-inputs p.submit input#submit {
+    width: max-content;
+    min-width: 170px;
+    border-color: transparent;
+}
+
+form#kleverlist_sendy_settings table tbody.settings-input-section.sendy-integration-inputs td,
+form#kleverlist_mailchimp_settings table tbody.settings-input-section.mailchimp-integration-inputs td,
+form#kleverlist_aweber_settings table tbody.settings-input-section.aweber-integration-inputs td {
+    position: relative;
+}
+
+form#kleverlist_sendy_settings table tbody.settings-input-section.sendy-integration-inputs p,
+form#kleverlist_mailchimp_settings table tbody.settings-input-section.mailchimp-integration-inputs p,
+form#kleverlist_aweber_settings table tbody.settings-input-section.aweber-integration-inputs p {
+    position: relative;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+}
+
+p.submit input#kleverlist_remove_settings {
+    min-width: 170px;
+    height: 44px;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 600;
+}
+
+form#kleverlist_brands_settings select#sendy_brands,
+form#kleverlist_mailchimp_audience_settings select#mailchimp_audience,
+form#kleverlist_aweber_account_list_settings select#aweber_account_list {
+    padding: 8px 18px;
+    min-width: 220px;
+    border: none;
+    margin-left: 10px;
+    font-family: inherit;
+    outline: 0;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+form#kleverlist_brands_settings label,
+form#kleverlist_mailchimp_audience_settings label,
+form#kleverlist_aweber_account_list_settings label {
+    font-family: inherit;
+}
+
+form#kleverlist_brands_settings p.submit input#generate_lists,
+form#kleverlist_mailchimp_audience_settings p.submit input#audience_lists,
+form#kleverlist_aweber_account_list_settings p.submit input#aweber_account_btn {
+    min-width: 170px;
+    border-radius: 6px;
+    height: 44px;
+    font-weight: 600;
+    color: #FF7A3D;
+    border-color: #FF7A3D;
+}
+
+form#kleverlist_brands_settings p.submit input#generate_lists:hover,    
+form#kleverlist_mailchimp_audience_settings p.submit input#audience_lists:hover,
+form#kleverlist_aweber_account_list_settings p.submit input#aweber_account_btn:hover{    
+    background: #FF7A3D;
+    color: #fff;
+}
+
+form#kleverlist_sendy_settings p.submit input#kleverlist_remove_settings:hover {
+    background-color: #d70000;
+    border: none;
+}
+
+form#kleverlist_brands_settings {
+    margin-left: 9px;
+}
+
+
+/* Mapping page */
+
+table.form-table.kleverlist-choose-lists select#global_list,
+table.form-table.kleverlist-choose-lists select#aweber_account_list,
+table.form-table.kleverlist-choose-lists select#kleverlist_sendy_list,
+table.form-table.kleverlist-choose-integration select#mapping_integration_type {
+    padding: 8px 18px;
+    min-width: 220px;
+    border: none;
+    margin-left: 10px;
+    font-family: inherit;
+    outline: 0;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+table.form-table.kleverlist-choose-integration select#mapping_integration_type {
+    margin-left: 0px !important;
+}
+
+table.form-table.kleverlist-choose-lists th {
+    font-weight: 600;
+    font-family: inherit;
+}
+
+table.form-table.kleverlist-choose-lists p {
+    font-family: inherit;
+    padding-left: 10px;
+    color: #646970;
+}
+
+table.form-table.kleverlist-choose-integration td {
+    margin-left: 10px;
+    display: block;
+}
+
+p.kleverlist-data {
+    font-family: inherit;
+    font-weight: 400;
+    color: #646970;
+}
+
+form#kleverlist_mapping_settings table.form-table.width-900 td label.radio-inline {
+    margin-right: 10px;
+}
+
+table.form-table.width-900 p.submit input#mapping_settings_save,
+input#global_settings,input#kleverlist_mailchimp_settings_save,
+input#sendy_migrate_button, input#aweber_migrate_button ,
+input#kleverlist_aweber_settings_save,
+input#mailchimp_migrate_button {
+    min-width: 170px;
+    height: 44px;
+    font-family: inherit;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 600;
+    background: #FF7A3D;
+}
+
+table.form-table.width-900 p.submit input#mapping_settings_save:hover,
+table.form-table.width-900 p.submit input#kleverlist_aweber_settings_save:hover,
+input#global_settings:hover, input#kleverlist_mailchimp_settings_save:hover, 
+input#sendy_migrate_button:hover, input#aweber_migrate_button:hover ,
+input#mailchimp_migrate_button:hover {
+    background: #FF5100;
+}
+
+div#kleverlist_mapping_settings_content table.form-table.width-900 td {
+    padding-left: 20px;
+}
+
+#loader,
+#global_loader, 
+#mailchimp_loader,
+#audience_loader,
+#audience_loader,
+#aweber_loader,
+#migration_loader {
+    position: unset;
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    border-top-color: #333;
+    border-radius: 50%;
+    animation: spin 1s ease-in-out infinite;
+}
+#mailchimp_loader{
+    margin: auto;
+}
+
+#aweber_loader{
+    position: absolute;
+    left: 50%;
+    top: auto;
+}
+#kleverlist_aweber_settings .form-table{
+    padding-bottom: 70px;
+}
+#global_loader{
+    width: 30px;
+    height: 30px;    
+    margin: 0 0 8px 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.kleverlist-loader-outer-div {
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+td.kleverlist-position {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+td.kleverlist-position p.submit {
+    position: unset !important;
+}
+
+
+/* Mapping Checkbox Toggle Design Code Start */
+
+.kleverlist-switch {
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    width: 55px;
+}
+
+.kleverlist-switch input {
+    display: none;
+}
+
+.kleverlist-slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+}
+
+.kleverlist-slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 22px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 22px;
+}
+
+input.kleverlist-mapping-checkbox:checked+.kleverlist-slider {
+    background-color: #66bb6a;
+}
+
+input.kleverlist-mapping-checkbox:checked+.kleverlist-slider:before {
+    transform: translateX(26px);
+}
+
+input.kleverlist-global-checkbox:checked+.kleverlist-slider {
+    background-color: #66bb6a;
+}
+
+input.kleverlist-global-checkbox:checked+.kleverlist-slider:before {
+    transform: translateX(26px);
+}
+
+.kleverlist-slider.kleverlist-round {
+    border-radius: 34px;
+}
+
+.kleverlist-slider.kleverlist-round:before {
+    border-radius: 50%;
+}
+
+
+/* general styling */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.kleverlist-container {
+    margin: 0 auto;
+}
+
+
+/* Mapping Checkbox Toggle Design Code End */
+
+
+/* Custom Suggestion tooltip */
+
+.kleverlist-tooltip {
+    position: absolute;
+    display: inline-block;
+    border-bottom: 1px black;
+    margin: 0 0 0 70px;
+    bottom: 22px;
+    font-weight: bold;
+}
+
+div#kleverlist_mapping_settings_content table.form-table.width-900 td {
+    position: relative;
+}
+
+.kleverlist-tooltip .kleverlist-tooltiptext {
+    font-size: 12px;
+    background-color: #333;
+    color: #ffffff;
+    position: absolute;
+    top: -40px;
+    left: 62%;
+    width: 400px;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 26px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.2s;
+    display: none;
+    transform: translate(-50%, -75%);
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+span.kleverlist-tooltiptext:before {
+    position: absolute;
+    content: "";
+    border-width: 10px;
+    border-color: #333 transparent transparent;
+    border-style: solid;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    opacity: 1;
+}
+
+.kleverlist-tooltip:hover .kleverlist-tooltiptext {
+    display: block;
+}
+
+.kleverlist-tooltip.kleverlist-tooltip-box img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.kleverlist-tooltip.kleverlist-tooltip-box img:hover+span.kleverlist-tooltiptext {
+    opacity: 1;
+}
+
+
+/* Custom Suggestion tooltip */
+
+
+/* Mapping Sendy Field Hide / Show */
+
+.kleverlist-sendy-integration-section.hide-block {
+    display: none;
+}
+
+.kleverlist-sendy-integration-section.show-block {
+    display: block;
+}
+
+
+/* Mapping Sendy Field Hide / Show */
+
+
+/* Dev CSS Start */
+
+.kleverlist-integrations {
+    width: 16%;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+
+/* Dev CSS End */
+
+
+/* newly css designed on 24/4/2023 */
+
+table.form-table.width-900.klever-list-data-outer-div {
+    width: 50%;
+    background: #ffffffde;
+    border-radius: 10px;
+    padding: 11px;
+    display: grid;
+    margin: auto;
+    margin-top: 0em !important;
+    /*-webkit-box-shadow: 3px 2px 19px 0px rgba(227, 227, 227, 1);
+    -moz-box-shadow: 3px 2px 19px 0px rgba(227, 227, 227, 1);
+    box-shadow: 3px 2px 19px 0px rgba(227, 227, 227, 1);*/
+}
+
+form#kleverlist_sendy_settings {
+    height: 100%;
+}
+
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.sendy-integration-inputs tr td,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.mailchimp-integration-inputs tr td {
+    width: 100%;
+    display: inline;
+}
+
+tbody.settings-input-section.sendy-integration-inputs {
+    width: 100% !important;
+}
+
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.sendy-integration-inputs tr td input,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.mailchimp-integration-inputs tr td input,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.aweber-integration-inputs tr td input,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.aweber-integration-inputs tr td textarea  {
+    width: 96%;
+    background: #f0f0f1;
+}
+
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.sendy-integration-inputs tr,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.mailchimp-integration-inputs tr,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.aweber-integration-inputs tr {
+    display: grid;
+}
+
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.sendy-integration-inputs tr td p.klever-list-data-paragraph,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.mailchimp-integration-inputs tr td p.klever-list-data-paragraph,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.aweber-integration-inputs tr td p.klever-list-data-paragraph {
+    margin-bottom: 0px;
+    display: block;
+}
+
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.sendy-integration-inputs tr td.klever-list-data-td,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.mailchimp-integration-inputs tr td.klever-list-data-td,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.aweber-integration-inputs tr td.klever-list-data-td {
+    margin: 0;
+    padding-bottom: 0;
+}
+
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.sendy-integration-inputs tr td.kleverlist-position,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.mailchimp-integration-inputs tr td.kleverlist-position {
+    padding-top: 0;
+}
+
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.sendy-integration-inputs tr td.kleverlist-position p.submit
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.mailchimp-integration-inputs tr td.kleverlist-position p.submit,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.aweber-integration-inputs tr td.kleverlist-position p.submit {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.sendy-integration-inputs tr td.kleverlist-position p.submit input#settings_submit_button,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.mailchimp-integration-inputs tr td.kleverlist-position p.submit input#mailchimp_submit_button,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.aweber-integration-inputs tr td.kleverlist-position p.submit input#aweber_submit_button {
+    background: #FF7A3D;
+    width: 100%;
+}
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.sendy-integration-inputs tr td.kleverlist-position p.submit input#settings_submit_button:hover,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.mailchimp-integration-inputs tr td.kleverlist-position p.submit input#mailchimp_submit_button:hover,
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.aweber-integration-inputs tr td.kleverlist-position p.submit input#aweber_submit_button:hover {
+    background: #FF5100;
+}
+
+td.kleverlist-position .kleverlist-loader-outer-div {
+    border-bottom-right-radius: 8px;
+    position: absolute;
+    bottom: -49px;
+    padding: 2px;
+    width: 99.7%;
+    left: 0;
+    margin-left: -12px;
+    border-bottom-left-radius: 8px;
+}
+
+td.kleverlist-position .kleverlist-loader-outer-div div#loader {
+    margin-left: 48%;
+    background: #fff;
+}
+
+th.klever-list-data-heading em {
+    padding-left: 10px;
+}
+
+table.form-table.width-900.klever-list-data-outer-div div#remote-storage-container label span.labelauty-checked {
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+/* Remove brand div  */
+
+.klever-list-data-brandselect-main {
+    width: 50%;
+    margin: auto;
+    background: #ffffffde;
+    border-radius: 10px;
+    margin-top: 2em;
+    -webkit-box-shadow: 3px 2px 19px 0px rgba(227, 227, 227, 1);
+    -moz-box-shadow: 3px 2px 19px 0px rgba(227, 227, 227, 1);
+    box-shadow: 3px 2px 19px 0px rgba(227, 227, 227, 1);
+}
+
+.klever-list-data-brandselect-main .klever-list-data-removebtn td.kleverlist-position {
+    padding: 0 18px;
+}
+
+.klever-list-data-brandselect-main .klever-list-data-removebtn td.kleverlist-position p.submit {
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.klever-list-data-brandselect-main .klever-list-data-removebtn td.kleverlist-position input#kleverlist_remove_settings {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.klever-list-data-brandselect-main .klever-list-data-removebtn td.kleverlist-position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.klever-list-data-brandselect-main .klever-list-data-removebtn td.kleverlist-position div#loader {
+    margin: 2em 0 -10px;
+}
+
+.klever-list-data-brandselect-main form#kleverlist_brands_settings,
+.klever-list-data-brandselect-main form#kleverlist_mailchimp_audience_settings, 
+.klever-list-data-brandselect-main form#kleverlist_aweber_account_list_settings{
+    margin-left: 17px;
+}
+
+.klever-list-data-brandselect-main form#kleverlist_mailchimp_audience_settings table,
+.klever-list-data-brandselect-main form#kleverlist_brands_settings table,
+.klever-list-data-brandselect-main form#kleverlist_aweber_account_list_settings table {
+    width: 100%;
+}
+
+.klever-list-data-brandselect-main form#kleverlist_brands_settings select#sendy_brands,
+.klever-list-data-brandselect-main form#kleverlist_mailchimp_audience_settings select#mailchimp_audience,
+.klever-list-data-brandselect-main form#kleverlist_aweber_account_list_settings select#aweber_account_list
+ {
+    width: 73%;
+    background-color: #f0f0f1;
+}
+
+td.klever-list-data-dropdown {
+    margin-top: 2em;
+    display: block;
+    margin-left: 8px;
+}
+
+.klever-list-data-brandselect-main form#kleverlist_brands_settings td.kleverlist-position,
+.klever-list-data-brandselect-main form#kleverlist_aweber_account_list_settings td.kleverlist-position
+.klever-list-data-brandselect-main form#kleverlist_mailchimp_audience_settings td.kleverlist-position {
+    width: 100%;
+}
+
+.klever-list-data-brandselect-main form#kleverlist_brands_settings td.kleverlist-position input,
+.klever-list-data-brandselect-main form#kleverlist_aweber_account_list_settings td.kleverlist-position input,
+.klever-list-data-brandselect-main form#kleverlist_mailchimp_audience_settings td.kleverlist-position input {
+    width: 100%;
+}
+
+.klever-list-data-brandselect-main form#kleverlist_brands_settings td.kleverlist-position p.submit,
+.klever-list-data-brandselect-main form#kleverlist_aweber_account_list_settings td.kleverlist-position p.submit,
+.klever-list-data-brandselect-main form#kleverlist_mailchimp_audience_settings td.kleverlist-position p.submit {
+    width: 97%;
+    padding-bottom: 0;
+}
+
+.klever-list-data-brandselect-main form#kleverlist_brands_settings td.kleverlist-position input:hover,
+.klever-list-data-brandselect-main form#kleverlist_aweber_account_list_settings td.kleverlist-position input:hover,
+.klever-list-data-brandselect-main form#kleverlist_mailchimp_audience_settings td.kleverlist-position input:hover {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: white;
+}
+
+@keyframes scale-display {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes scale-display--reversed {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+    99% {
+        opacity: 0;
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+}
+
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.sendy-integration-inputs,tbody.settings-input-section.mailchimp-integration-inputs,
+tbody.settings-input-section.aweber-integration-inputs {
+    animation: scale-display 0.3s;
+}
+
+table.form-table.width-900.klever-list-data-outer-div tbody.settings-input-section.hide_sendy_setting_input {
+    animation: scale-display--reversed 0.3s;
+    animation-fill-mode: forwards;
+}
+
+p.kleverlist-response.verfied-klever-center,
+p.kleverlist-response-brands.klever-list-data-generate-text,
+p.kleverlist-response-aweber-list.kleverlist-data-generate-text {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2em;
+}
+
+p.kleverlist-response-brands.klever-list-data-generate-text,
+p.kleverlist-response-aweber-list.kleverlist-data-generate-text {
+    position: absolute;
+    width: 100%;
+}
+
+.klever-list-data-brandselect-main {
+    position: relative;
+}
+
+td.kleverlist-position.klever-list-data-mainchanges div#loader {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: -10px;
+}
+
+td.kleverlist-position.klever-list-data-generate {
+    flex-direction: column;
+}
+
+td.kleverlist-position.klever-list-data-generate div#brand_loader {
+    margin-bottom: 2em;
+}
+
+td.kleverlist-position.klever-list-data-generate p.submit {
+    margin-left: -18px;
+}
+
+table.form-table.width-900.klever-list-data-removebtn td.kleverlist-position p.submit {
+    margin-top: 10px;
+}
+
+.kleverlist-integrations.integrations-block.klever-width-btn {
+    width: auto;
+    text-align: center;
+    display: flex;
+    padding: 8px;
+    border-radius: 9px;
+    background: #f0f0f1;
+    border: 0;
+    margin-right: 10px;
+}
+
+.kleverlist-integrations.integrations-block.klever-width-btn label {
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+td.klever-list-btn-padd {
+    padding: 0;
+}
+
+td.kleverlist-position.klever-list-data-mainchanges.klever-list-data-one {
+    width: 96% !important;
+}
+
+td.kleverlist-position.klever-list-data-mainchanges.klever-list-data-one input#settings_submit_button,
+td.kleverlist-position.klever-list-data-mainchanges.klever-list-data-one input#aweber_submit_button {
+    width: 100%;
+}
+
+td.klever-list-data-dropdown label {
+    font-weight: 500;
+}
+
+/* Mapping page */
+tbody.kleverlist-data-mapping-bg.nobrg {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+tbody.kleverlist-premium-option.nobrg.kleverlist-data-mapping-bg{
+    border-radius: 0 0 10px 10px !important;
+}
+
+.klever-list-mapping-target-field tbody.kleverlist-data-mapping-bg {
+    background: white;
+    border-radius: 10px;
+    padding: 5px 15px 0;
+    display: table-caption;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.klever-list-mapping-target-field td.klever-list-data-mappinng-page-heading {
+    padding: 0;    
+}
+
+th.klever-list-data-mapping-main-heading-title {
+    padding-top: 27px;
+}
+
+div#kleverlist_mapping_settings_content table.form-table.width-900 td h4 {
+    font-size: 1.1em;
+    color: #646970;
+}
+.kleverlist-maapping-subheading{
+    color: #646970;
+}
+
+table.form-table.kleverlist-choose-integration select#mapping_integration_type:active {
+    outline: none;
+}
+
+td.klever-list-data-mapping-extra-field h4 {
+    margin: 0;
+}
+
+.kleverlist-tooltip.kleverlist-tooltip-box span.dashicons.dashicons-editor-help {
+    font-size: 26px;
+}
+
+th.klever-list-data-heading-mapping {
+    padding-top: 36px;
+}
+
+tbody.klever-list-data-settings-page td {
+    padding-bottom: 0;
+}
+
+tbody.klever-list-data-settings-page {
+    margin-bottom: 1em;
+    display: block;
+}
+
+.klever-list-data-settings-field-page {
+    background: white;
+    border-radius: 10px;
+    padding: 20px 20px 0;
+}
+
+.klever-list-data-heading-load-list {
+    width: 60%;
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+    font-size: inherit;
+}
+
+.klever-list-data-heading-load-list h1 {
+    font-weight: 500;
+}
+
+td.kleverlist-global-help-info {
+    position: relative;
+}
+
+td.kleverlist-global-help-info .kleverlist-tooltip.kleverlist-tooltip-box {
+    bottom: auto;
+    top: 19px;
+}
+
+.kleverlist-global-privacy-input input#kleverlist_global_privacy_input,
+.kleverlist-aweber-global-privacy-input input#kleverlist_aweber_global_privacy_input,
+.kleverlist-mailchimp-global-privacy-input input#kleverlist_mailchimp_global_privacy_input {
+    margin-top: 10px;
+    border-color: gray;
+    border-radius: 8px;
+    width: 100%;
+    padding: 5px;
+    font-family: inherit;
+    font-size: 15px;
+    color: #646970;
+}
+
+.kleverlist-global-privacy-input.hide-input,
+.kleverlist-mailchimp-global-privacy-input.hide-input,
+.kleverlist-aweber-global-privacy-input.hide-input,
+.kleverlist-sendy-global-resubscribe-input.hide-input,
+.kleverlist-mailchimp-global-resubscribe-input.hide-input,
+.kleverlist-mailchimp-global-activity-insights-input.hide-input,
+.kleverlist-global-active-all-input.hide-input,
+.kleverlist-mailchimp-remove-order-processing-tag-section.hide-input,
+.kleverlist-aweber-remove-order-processing-tag-section.hide-input,
+.kleverlist-aweber-global-resubscribe-input.hide-input,
+.kleverlist-sendy-remove-order-processing-tag-section.hide-input {
+    display: none;
+}
+
+.kleverlist-global-privacy-input.show-input,
+.kleverlist-mailchimp-global-privacy-input.show-input,
+.kleverlist-aweber-global-privacy-input.show-input,
+.kleverlist-sendy-global-resubscribe-input.show-input,
+.kleverlist-mailchimp-global-resubscribe-input.show-input,
+.kleverlist-aweber-global-resubscribe-input.show-input,
+.kleverlist-global-active-all-input.show-input {
+    display: block;
+}
+
+tbody.kleverlist-data-mapping-bg.kleverlist-margin {
+    margin-top: 2em;
+}
+
+tbody.kleverlist-data-mapping-bg.kleverlist-margin td.kleverlist-position.button-mapping {
+    /*margin-bottom: 0;*/
+    display: flex;
+    width: 100%;
+}
+
+tbody.kleverlist-data-mapping-bg.kleverlist-margin td.kleverlist-position.button-mapping .kleverlist-loader-outer-div {
+    position: unset !important;
+    margin-left: 15px !important;
+}
+
+tbody.kleverlist-data-mapping-bg.kleverlist-margin td.kleverlist-position.button-mapping .kleverlist-loader-outer-div div#loader {
+    margin: 0;
+}
+
+.kleverlist-mapping-page-heading.kleverlist-advanced {
+    margin-top: 2em;
+}
+
+.kleverlist-mapping-page-heading h2 {
+    margin-bottom: 0;
+}
+
+.kleverlist-mapping-page-heading p {
+    margin-top: 7px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: inherit;
+    line-height: 1.8;
+    margin-right: 20px;
+    color: #646970;
+}
+
+.kleverlist-tooltip.kleverlist-tooltip-box {
+    top: 17px;
+    bottom: auto;
+}
+
+.klever-list-data-generate p.klever-list-data-paragraph {
+    position: relative;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.kleverlist-page-main-description{
+    position: relative;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+
+.kleverlist-icon-list {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+}
+
+.kleverlist-icon-list img {
+    width: 100%;
+}
+
+.kleverlist-main-div-integrate-icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.kleverlist-quick-guide-video {
+    margin: 5px auto;
+}
+.kleverlist-quick-guide-video iframe{
+    width: 850px;
+    height: 460px;
+
+}
+
+.kleverlist-main-div-integrate-icon h1 {
+    width: 70%;
+    padding: 0;
+}
+
+.notice.notice-warning {
+    margin-top: 10px;
+}
+
+/*Premium notice popup*/
+.kleverlist-premium-popup-wrapper .kleverlist-premium-popup-inner-wrapper {
+    position: fixed;
+    width: 600px;
+    height: 440px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.kleverlist-premium-popup-wrapper .kleverlist-premium-popup-image-popup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0 0em;
+}
+
+.kleverlist-premium-popup-wrapper .kleverlist-premium-popup-image-popup img {
+    width: 100px;
+}
+
+.kleverlist-premium-popup-content {
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.kleverlist-premium-popup-content h2 {
+    font-size: 2.0em;
+    font-family: 'Roboto';
+}
+
+.kleverlist-premium-popup-content p {
+    font-size: 17px;
+    padding:0 20px;
+}
+
+.kleverlist-premium-popup-content p a {
+    color: red;
+    text-transform: capitalize;
+}
+
+.overlay-kleverlist {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.kleverlist-premium-btn {
+    text-align: right;
+    margin-top: 2.5em;
+    width: 90%;
+}
+
+.kleverlist-premium-btn a {
+    background: #fc8f0f;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    outline: none;
+}
+#kleverlist-notice-popup{
+    display: none;
+}
+.kleverlist-free-plan {
+    background: #e7e7e7 !important;
+    /*pointer-events: none;*/
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+tbody.kleverlist-premium-option {
+    margin: 0 -20px !important;
+    display: table-caption;
+    padding: 0 19px;
+    border-radius: 0;
+}
+
+tbody.kleverlist-premium-option tr {
+    display: -webkit-box;
+}
+
+tbody.kleverlist-free-option {
+    display: table-caption;
+}
+.pro-featured-icon {
+    position: absolute;
+    top:11px;
+    right: 5px;
+}
+tbody.kleverlist-premium-option th {
+    position: relative;
+    color: #2c3338;
+    text-transform: capitalize;
+}
+.pro-featured-icon img {
+    width: 40px;
+}
+/*Premium notice popup*/
+
+/*Quick Start Page*/
+.kleverlist-admin-qs-section.kleverlist-admin-qs-section-squashed {
+    display: flex;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    line-height: 2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.kleverlist-qs-admin-column-20 {
+    padding-right: 20px;
+    width: auto;
+}
+
+.kleverlist-qs-admin-column>div[class*="-column-"] {
+    float: left !important;
+}
+
+.kleverlist-qs-admin-column-20 img {
+    width: 270px;
+}
+
+.kleverlist-qs-admin-column-80 {
+    padding-left: 20px;
+    width: calc(100% - 20px - 270px);
+}
+
+.kleverlist-qs-admin-column-80 h2 {
+    margin-bottom: -10px;
+    font-size: 24px;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 1.6;
+}
+
+.kleverlist-qs-admin-column-80 p {
+    font-size: 16px;
+    margin:1.4em 0;
+}
+
+.kleverlist-qs-admin-column-80 ol{
+    margin: 1.4em 18px;
+}
+
+.kleverlist-qs-admin-column-80 ol li {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.kleverlist-qs-admin-section-post-link {
+    padding: 10px 15px;
+    background-color: #FF7A3D;
+    color: #fff !important;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.kleverlist-qs-admin-section-post-link:hover {
+    background-color: #FF5100;
+}
+
+.kleverlist-qs-admin-column-80 .dashicons.dashicons-external, .kleverlist-qs-admin-column-80 .dashicons.dashicons-admin-links {
+    vertical-align: middle; 
+    margin-left: 5px;
+    line-height: 16px;
+}
+
+.kleverlist-quick-start-page.kleverlist-setting-page .kleverlist-page-main-description{ 
+    font-size: 14px;
+}
+
+.kleverlist-qs-emoji img {
+    display: inline!important;
+    border: none!important;
+    height: 40px!important;
+    width: 38px;
+    margin: 0 0.07em!important;
+    vertical-align: -0.5em!important;
+    background: 0 0!important;
+    padding: 0!important;
+    box-shadow: none!important;
+    object-fit: cover;
+    position: relative;
+    left: -3px;
+}
+
+span.kleverlist-qs-emoji {
+    width: 1.6em;
+    height: 1.5em;
+    display: -webkit-inline-box;
+}
+
+span.kleverlist-qs-emoji.qs-emoji-mapping {
+    width: 1.7em;
+    height: 1.7em;
+}
+
+span.kleverlist-qs-emoji.qs-emoji-mapping img {
+    width: 100%;
+    height: auto !important;
+}
+.kleverlist-qs-admin-wrap{
+    margin: 20px 0;
+}
+.kleverlist-qs-admin-wrap .kleverlist-quick-start-video-section{
+    align-items: center;
+    justify-content: center;
+}
+.kleverlist-qs-admin-wrap .kleverlist-quick-start-video-section .kleverlist-qs-admin-column-80{
+    width: auto;
+    padding-left: 0;
+    margin-top: 10px;
+}
+/*Quick Start Page*/
+
+a#apply_button {
+    background: #FF7A3D !important;
+    border-color: #FF7A3D !important;
+}
+a#apply_button:hover {
+    background: #FF5100 !important;
+}
+
+.kleverlist-radio-options.kleverlist-global-privacy-input.show-input,
+.kleverlist-radio-options.kleverlist-sendy-global-resubscribe-input.show-input,
+.kleverlist-radio-options.kleverlist-mailchimp-global-privacy-input.show-input,
+.kleverlist-radio-options.kleverlist-mailchimp-global-resubscribe-input.show-input,
+.kleverlist-radio-options.kleverlist-aweber-global-resubscribe-input.show-input,
+.kleverlist-radio-options.kleverlist-aweber-global-privacy-input.show-input,
+.kleverlist-radio-options.kleverlist-mailchimp-global-activity-insights-input.show-input {
+    margin-top: 1.5em;
+}
+
+.kleverlist-radio-options.kleverlist-global-privacy-input.show-input label,
+.kleverlist-radio-options.kleverlist-mailchimp-global-privacy-input.show-input label,
+.kleverlist-radio-options.kleverlist-sendy-global-resubscribe-input.show-input label,
+.kleverlist-radio-options.kleverlist-mailchimp-global-resubscribe-input.show-input label,
+.kleverlist-radio-options.kleverlist-aweber-global-resubscribe-input.show-input label,
+.kleverlist-radio-options.kleverlist-aweber-global-privacy-input.show-input label,
+.kleverlist-radio-options.kleverlist-mailchimp-global-activity-insights-input.show-input label {
+    margin-right: 2.5em;
+    color: #646970;
+}
+.kleverlist-radio-options.kleverlist-global-privacy-input.show-input label input[type=radio]:checked::before,
+.kleverlist-radio-options.kleverlist-mailchimp-global-privacy-input.show-input label input[type=radio]:checked::before,
+.kleverlist-radio-options.kleverlist-aweber-global-privacy-input.show-input label input[type=radio]:checked::before,
+.kleverlist-radio-options.kleverlist-sendy-global-resubscribe-input.show-input label input[type=radio]:checked::before,
+.kleverlist-radio-options.kleverlist-mailchimp-global-resubscribe-input.show-input label input[type=radio]:checked::before,
+.kleverlist-radio-options.kleverlist-aweber-global-resubscribe-input.show-input label input[type=radio]:checked::before,
+.kleverlist-radio-options.kleverlist-mailchimp-global-activity-insights-input.show-input label input[type=radio]:checked::before,
+.kleverlist-radio-options.kleverlist-global-active-all-input.show-input label input[type=radio]:checked::before{
+    background-color: #66bb6a;width: 0.7em;height: 0.7em;
+}
+
+.kleverlist-radio-options.kleverlist-global-privacy-input.show-input label input[type=radio],
+.kleverlist-radio-options.kleverlist-mailchimp-global-privacy-input.show-input label input[type=radio],
+.kleverlist-radio-options.kleverlist-aweber-global-privacy-input.show-input label input[type=radio],
+.kleverlist-radio-options.kleverlist-sendy-global-resubscribe-input.show-input label input[type=radio],
+.kleverlist-radio-options.kleverlist-mailchimp-global-resubscribe-input.show-input label input[type=radio],
+.kleverlist-radio-options.kleverlist-aweber-global-resubscribe-input.show-input label input[type=radio],
+.kleverlist-radio-options.kleverlist-mailchimp-global-activity-insights-input.show-input label input[type=radio],
+.kleverlist-radio-options.kleverlist-global-active-all-input.show-input label input[type=radio]{
+    width: 18px;height:18px;
+}
+table.form-table.width-900.klever-list-data-outer-div tbody tr td.klever-list-btn-padd:last-child {
+/*    margin-left: 2.8em;*/
+    display: inline-flex;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+table.form-table.width-900.klever-list-data-outer-div.kleverlist-service-table {
+    padding-top: 3em;
+    position: relative;
+    top: -15px;
+}
+
+td.klever-list-btn-padd.active .kleverlist-integrations.integrations-block.klever-width-btn {
+    background: #7c7c7c;
+    color: white;
+}
+
+.kleverlist-extra-checkbox-options label {
+    margin-right: 2.5em;
+}
+
+.kleverlist-extra-checkbox-options {
+    margin-top: 1.5em;
+}
+
+.kleverlist-migration-settings .progress-container {
+    width: 100%;
+}
+.kleverlist-migration-settings .progress-container-inner {
+    width: 100%;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    height: 22px;
+    border-radius: 46px;
+    overflow: hidden;
+}
+.klever-list-settings-main.kleverlist-migration-settings td.kleverlist-position{
+    margin-bottom: 0;
+}
+.kleverlist-migration-results p.kleverlist-migration-response {
+ font-size: 16px;   
+    margin-top: 0;
+}
+
+.kleverlist-migration-settings .progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #2271b1;
+    text-align: center;
+    line-height: 22px;
+    color: white;
+    font-weight: bold;
+    transition: 2s ease-in-out;
+}
+
+.kleverlist-migration-results {
+    width: 74%;
+    margin-right:6em;
+    margin-left: auto;
+}
+
+tbody#kleverlist_aweber_integration p.submit {
+    width: 100%;
+}
+
+.kleverlist-toggle-options.kleverlist-mailchimp-remove-order-processing-tag-input,
+.kleverlist-toggle-options.kleverlist-sendy-remove-order-processing-tag-input{
+    margin-top: 1.5em;
+    padding-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.kleverlist-premium-option.kleverlist-free-plan .kleverlist-mailchimp-icon-block,
+.kleverlist-premium-option.kleverlist-free-plan .kleverlist-sendy-icon-block,
+.kleverlist-premium-option.kleverlist-free-plan .kleverlist-data.kleverlist-mailchimp-remove-order-processing-tag-input,
+.kleverlist-premium-option.kleverlist-free-plan .kleverlist-data.kleverlist-sendy-remove-order-processing-tag-input{
+    margin-left: 15px !important;
+}
+.kleverlist-data.kleverlist-mailchimp-toggle-text,
+.kleverlist-data.kleverlist-sendy-toggle-text{
+    padding: 3px 0 10px 0;
+}
+.kleverlist-mailchimp-icon-block .pro-featured-icon,
+.kleverlist-sendy-icon-block .pro-featured-icon{
+    position: relative;
+    top: 4px;
+}
+.kleverlist-primium-plan .kleverlist-mailchimp-icon-block,
+.kleverlist-primium-plan .kleverlist-sendy-icon-block{
+    display: none;
+}
+.kleverlist-mailchimp-remove-order-processing-tag-section .kleverlist-free-plan .kleverlist-mailchimp-toggle-text,
+.kleverlist-sendy-remove-order-processing-tag-section .kleverlist-free-plan .kleverlist-sendy-toggle-text{
+    margin: 0 0 0 10px;
+} 
+.kleverlist-radio-options.kleverlist-global-active-all-input{
+    margin-top: 1.5em;
+}
+
+.kleverlist-radio-options.kleverlist-global-active-all-input label {
+    margin-right: 2.5em;
+    color: #646970;
+}
+
+/*New CSS Start for menu*/
+.kleverlist_page_kleverlist-global-settings-v2 #wpcontent,
+.kleverlist_page_kleverlist-global-settings #wpcontent{
+    padding-left: 0px !important;
+}
+.kleverlist-setting-top-area .kleverlist-main-div-integrate-icon {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+.kleverlist-setting-top-area .kleverlist-settings-top-section{
+    width: 100%;
+}
+.kleverlist-setting-top-area .kleverlist-settings-logo-section{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: start;
+    margin-bottom: 15px;
+    padding: 12px 0 0 0;
+}
+.kleverlist-setting-top-area .kleverlist-icon-list{
+    width: 60px;
+    height: auto;
+    margin-right: 0;
+}
+
+.kleverlist-setting-top-area .kleverlist-settings-logo-section .kleverlist_mapping_heading{
+    font-size: 23px;
+    font-weight: 500;
+    width: auto;
+}
+
+.kleverlist-setting-top-area .kleverlist-page-main-description{
+    margin: 20px 0 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #646970;
+    margin-right: 20px;
+    line-height: 1.8;
+}
+
+.kleverlist-setting-top-area .kleverlist-admin-menu-tabs{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    list-style: none;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    gap: 25px;
+    width: 100%;
+    padding-left: 21px;
+    margin-left: -22px;
+
+}
+.kleverlist-setting-top-area .kleverlist-admin-menu-tabs li {
+     margin-bottom: 0;
+}
+
+.kleverlist-setting-top-area .kleverlist-admin-menu-tabs li a{
+    display: block;
+    font-size: 14px;
+    border-bottom: 3px solid #ffffff;
+    box-shadow: none;
+    color: #2c3338;
+    text-decoration: none;
+    padding: 20px 0px;
+}
+.kleverlist-setting-top-area .kleverlist-admin-menu-tabs li a.active{
+    border-bottom: 3px solid #FF5100;
+}
+
+.kleverlist-setting-top-area .klever-list-data-settings-field-page{
+    margin-right: 18px;
+}
+
+.kleverlist-setting-top-area .kleverlist-global-settings-content{
+    padding-left: 20px;
+}
+li.kleverlist-menu-item-hidden{
+    display: none !important;
+}
+.kleverlist-setting-top-area .klever-list-mapping-target-field tbody.kleverlist-data-mapping-bg{
+    margin-right: 18px !important;
+}
+/*New CSS Start for menu*/
